@@ -9,7 +9,6 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        speed: 0,
         // foo: {
         //     // ATTRIBUTES:
         //     default: null,        // The default value will be used only when the component attaching
@@ -29,15 +28,11 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
-        this.node.zIndex = 1;
-    },
+    // onLoad () {},
 
     start () {
 
     },
 
-    update (dt) {
-        this.node.y += dt * this.speed;
-    },
+    // update (dt) {},
 });

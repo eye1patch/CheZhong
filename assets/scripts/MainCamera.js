@@ -35,6 +35,10 @@ cc.Class({
         this.speed = 0;
     },
 
+    backMove () {
+        this.speed = -this.maxSpeed;
+    },
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
